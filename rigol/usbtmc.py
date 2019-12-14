@@ -1,5 +1,6 @@
 import os
 import warnings
+from cached_property import cached_property
 
 
 class Usbtmc:
@@ -60,6 +61,26 @@ class Usbtmc:
         """The command resets the system parameters."""
         warnings.warn(f"Resetting: {self.name()}")
         self.write("*RST")
+
+    @cached_property
+    def __idn__(self):
+        return self.name()
+
+    @property
+    def model(self):
+        return self.__idn__.split(",")[1]
+
+    @property
+    def vendor(self):
+        return self.__idn__.split(",")[0]
+
+    @property
+    def serial(self):
+        return self.__idn__.split(",")[2]
+
+    @property
+    def version(self):
+        return self.__idn__.split(",")[3]
 
     def __repr__(self):
         return f"{self.__class__.__name__}<{self.device}>"
