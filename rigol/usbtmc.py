@@ -1,5 +1,6 @@
 import os
 import warnings
+
 from cached_property import cached_property
 
 
@@ -12,17 +13,16 @@ class Usbtmc:
     """
 
     def __init__(self, device: [str] = "/dev/usbtmc0"):
-        self.device = device
+        self.dev_device = device
         self.channels = list()
-        self.reset()
 
     @property
     def __file__(self):
         os_open_configuration = {
-            "path": self.device,
+            "path": self.dev_devicea,
             "flags": os.O_RDWR | os.O_DIRECT | os.O_SYNC,
         }
-        __file = os.open(self.device, os.O_RDWR)
+        __file = os.open(self.dev_devicea, os.O_RDWR)
         return __file
         # TODO: Test that the__file__ opened
 
@@ -59,7 +59,7 @@ class Usbtmc:
 
     def reset(self):
         """The command resets the system parameters."""
-        warnings.warn(f"Resetting: {self.name()}")
+        warnings.warn(f"Resetting: {self}")
         self.write("*RST")
 
     @cached_property
@@ -83,7 +83,7 @@ class Usbtmc:
         return self.__idn__.split(",")[3]
 
     def __repr__(self):
-        return f"{self.__class__.__name__}<{self.device}>"
+        return f"{self.__class__.__name__}<{self.dev_device}>"
 
     def __enter__(self):
         print("in __enter__")

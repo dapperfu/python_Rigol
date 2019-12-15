@@ -1,0 +1,48 @@
+RIGOL
+Programming Guide
+
+
+
+
+       DS1000E, DS1000D
+        Series Digital Oscilloscope
+
+
+
+
+               Sept. 2010
+
+        RIGOL Technologies, Inc.
+                                                                               RIGOL
+
+
+Copyright
+© 2009 RIGOL Technologies, Inc. All Rights Reserved.
+
+
+Trademark Information
+RIGOL is registered trademark of RIGOL Technologies, Inc.
+
+
+Notices
+   RIGOL products are protected by patent law in and outside of P.R.C..
+   RIGOL Technologies, Inc. reserves the right to modify or change parts of or all
+    the specifications and pricing policies at company’s sole decision.
+   Information in this publication replaces all previously corresponding material.
+   RIGOL shall not be liable for losses caused by either incidental or consequential
+    in connection with the furnishing, use or performance of this manual as well as
+    any information contained.
+   Any part of this document is forbidden to copy or photocopy or rearrange
+    without prior written approval of RIGOL.
+
+
+Product Certification
+RIGOL guarantees this product conforms to the standards of national and industrial.
+Meanwhile, the related standards conform to other ISO will get further. At present,
+DS1000E, DS1000D has passed CE certification.
+
+
+
+
+Programming Guide for DS1000E, DS1000D Series                                           I
+

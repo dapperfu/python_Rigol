@@ -1,0 +1,131 @@
+Command Quick Reference A-Z                                                    RIGOL
+
+
+
+Command Quick Reference A-Z
+
+*IDN? 2-3                                       :DISPlay:CLEar   2-13
+*RST 2-3                                        :DISPlay:BRIGhtness     2-13
+                                                :DISPlay:INTensity   2-14
+A
+                                                :DIGital<n>:TURN 2-72
+:AUTO 2-5                                       :DIGital<n>:POSition 2-72
+:ACQuire:TYPE 2-7
+                                                F
+:ACQuire:MODE 2-7
+:ACQuire:AVERages 2-7                           :FFT:DISPlay 2-51
+:ACQuire:SAMPlingrate? 2-8                      :FORCetrig 2-25
+:ACQuire:MEMDepth <depth>         2-8
+                                                H
+B
+                                                :HARDcopy 2-5
+:BEEP:ENABle 2-88
+                                                I
+:BEEP:ACTion 2-89
+                                                :INFO:LANGuage 2-88
+C
+                                                K
+:CHANnel<n>:BWLimit 2-54
+:CHANnel<n>:COUPling       2-54                 :KEY:LOCK 2-76
+:CHANnel<n>:DISPlay       2-54                  :KEY:RUN 2-76
+:CHANnel<n>:INVert 2-55                         :KEY:AUTO 2-76
+:CHANnel<n>:OFFSet 2-55                         :KEY:CHANnel1 2-76
+:CHANnel<n>:PROBe 2-56                          :KEY:CHANnel2 2-77
+:CHANnel<n>:SCALe 2-56                          :KEY:MATH 2-77
+:CHANnel<n>:FILTer 2-57                         :KEY:REF 2-77
+:CHANnel<n>:MEMoryDepth? 2-57                   :KEY:F1 2-78
+:CHANnel<n>:VERNier 2-58                        :KEY:F2 2-78
+:COUNter:ENABle 2-88                            :KEY:F3 2-78
+                                                :KEY:F4 2-78
+D
+                                                :KEY:F5 2-79
+:DISPlay:TYPE   2-11                            :KEY:MNUoff 2-79
+:DISPlay:GRID 2-11                              :KEY:MEASure 2-79
+:DISPlay:PERSist   2-11                         :KEY:CURSor 2-79
+:DISPlay:MNUDisplay    2-12                     :KEY:ACQuire 2-80
+:DISPlay:MNUStatus 2-12                         :KEY:DISPlay 2-80
+
+Programming Guide for DS1000E, DS1000D Series                                      1
+RIGOL                                        Command Quick Reference A-Z
+
+
+:KEY:STORage 2-80              :MEASure:VPP? 2-60
+:KEY:UTILity 2-81              :MEASure:VMAX? 2-60
+:KEY:MNUTIME 2-81              :MEASure:VMIN?     2-60
+:KEY:MNUTRIG 2-81              :MEASure:VAMPlitude? 2-61
+:KEY:Trig%50 2-81              :MEASure:VTOP? 2-61
+:KEY:FORCe 2-82                :MEASure:VBASe? 2-61
+:KEY:V_POS_INC 2-82            :MEASure:VAVerage?     2-62
+:KEY:V_POS_DEC 2-82            :MEASure:VRMS?     2-62
+:KEY:V_SCALE_INC 2-82          :MEASure:OVERshoot? 2-62
+:KEY:V_SCALE_DEC 2-83          :MEASure:PREShoot?     2-63
+:KEY:H_SCALE_INC 2-83          :MEASure:FREQuency? 2-63
+:KEY:H_SCALE_DEC 2-83          :MEASure:RISetime? 2-63
+:KEY:TRIG_LVL_INC 2-83         :MEASure:FALLtime? 2-64
+:KEY:TRIG_LVL_DEC 2-83         :MEASure:PERiod? 2-64
+:KEY:H_POS_INC 2-84            :MEASure:PWIDth? 2-64
+:KEY:H_POS_DEC 2-84            :MEASure:NWIDth? 2-65
+:KEY:PROMPT_V 2-84             :MEASure:PDUTycycle?      2-65
+:KEY:PROMPT_H 2-84             :MEASure:NDUTycycle? 2-65
+:KEY:FUNCtion 2-85             :MEASure:PDELay?     2-66
+:KEY:+FUNCtion 2-85            :MEASure:NDELay?     2-66
+:KEY:-FUNCtion 2-85            :MEASure:TOTal 2-66
+:KEY:LA 2-85                   :MEASure:SOURce 2-67
+:KEY:PROMPT_V_POS 2-86
+                               R
+:KEY:PROMPT_H_POS 2-86
+:KEY:PROMPT_TRIG_LVL 2-86      :RUN 2-5
+:KEY:OFF 2-86
+                               S
+L
+                               :STOP 2-5
+:LA:DISPlay   2-72             :STORage:FACTory:LOAD 2-49
+:LA:THReshold 2-73
+                               T
+:LA:POSition:RESet 2-73
+:LA:GROUp 2-74                 :TIMebase:MODE     2-16
+:LA:GROUp<n>:SIZe 2-74         :TIMebase[:DELayed]:OFFSet       2-16
+                               :TIMebase[:DELayed]:SCALe        2-17
+M
+                               :TIMebase:FORMat 2-17
+:MATH:DISPlay 2-51             :TRIGger:MODE 2-22
+:MATH:OPERate 2-51             :TRIGger<mode>:SOURce 2-22
+:MEASure:CLEar 2-60            :TRIGger<mode>:LEVel 2-23
+
+2                           Programming Guide for DS1000E, DS1000D Series
+Command Quick Reference A-Z                                                           RIGOL
+
+
+:TRIGger<mode>:SWEep 2-23                       :TRIGger:ALTernation:TYPE   2-39
+:TRIGger<mode>:COUPling        2-24             :TRIGger:ALTernation:TimeSCALe     2-40
+:TRIGger:HOLDoff 2-24                           :TRIGger:ALTernation:TimeOFFSet    2-40
+:TRIGger:STATus? 2-25                           :TRIGger:ALTernation<mode>:LEVel 2-41
+:Trig%50 2-25                                   :TRIGger:ALTernation:EDGE:SLOPe     2-41
+:TRIGger:EDGE:SLOPe     2-26                    :TRIGger:ALTernation<mode>:MODE 2-41
+:TRIGger:EDGE:SENSitivity     2-26              :TRIGger:ALTernation<mode>:TIME 2-42
+:TRIGger:PULSe:MODE 2-27                        :TRIGger:ALTernation:VIDEO:POLarity
+:TRIGger:PULSe:SENSitivity     2-27             2-43
+:TRIGger:PULSe:WIDTh 2-28                       :TRIGger:ALTernation:VIDEO:STANdard
+:TRIGger:VIDEO:MODE 2-29                        2-43
+:TRIGger:VIDEO:POLarity      2-29               :TRIGger:ALTernation:VIDEO:LINE 2-43
+:TRIGger:VIDEO:STANdard 2-30                    :TRIGger:ALTernation:SLOPe:WINDow
+:TRIGger:VIDEO:LINE 2-30                        2-44
+:TRIGger:VIDEO:SENSitivity     2-30             :TRIGger:ALTernation:SLOPe:LEVelA 2-45
+:TRIGger:SLOPe:TIME 2-32                        :TRIGger:ALTernation:SLOPe:LEVelB 2-45
+:TRIGger:SLOPe:SENSitivity     2-32             :TRIGger:ALTernation<mode>:COUPling
+:TRIGger:SLOPe:MODE 2-33                        2-46
+:TRIGger:SLOPe:WINDow        2-33               :TRIGger:ALTernation<mode>:HOLDoff
+:TRIGger:SLOPe:LEVelA     2-34                  2-46
+:TRIGger:SLOPe:LEVelB                           :TRIGger:ALTernation<mode>:SENSitivity
+:TRIGger:PATTern:PATTern     2-36               2-47
+:TRIGger:DURation:PATTern      2-37
+                                                W
+:TRIGger:DURation:TIME 2-37
+:TRIGger:DURation:QUALifier      2-38           :WAVeform:DATA? 2-69
+:TRIGger:ALTernation:SOURce 2-39                :WAVeform:POINts:MODE 2-69
+
+
+
+
+Programming Guide for DS1000E, DS1000D Series                                              3
+

@@ -1,6 +1,8 @@
 from cached_property import cached_property
 
+from .key import Key
 from .usbtmc import Usbtmc
+
 
 class RigolScope:
     """Class to control a Rigol DS1000 series oscilloscope"""
@@ -11,6 +13,8 @@ class RigolScope:
         if isinstance(device, str):
             device = Usbtmc(device)
         self.device = device
+
+        self.key = Key(device=self.device)
 
     def write(self, command):
         """Send an arbitrary command directly to the scope"""
@@ -53,6 +57,7 @@ class RigolScope:
 
     def __exit__(self, exception_type, exception_value, traceback):
         print("in __exit__")
+
 
 if __name__ == "__main__":
     scope = RigolScope()

@@ -1,5 +1,4 @@
 
-
 def test_device(device):
     print(device)
 
