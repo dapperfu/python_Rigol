@@ -19,10 +19,10 @@ class Usbtmc:
     @property
     def __file__(self):
         os_open_configuration = {
-            "path": self.dev_devicea,
+            "path": self.dev_device,
             "flags": os.O_RDWR | os.O_DIRECT | os.O_SYNC,
         }
-        __file = os.open(self.dev_devicea, os.O_RDWR)
+        __file = os.open(self.dev_device, os.O_RDWR)
         return __file
         # TODO: Test that the__file__ opened
 
